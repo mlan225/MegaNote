@@ -1,0 +1,15 @@
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\MegaNote.exe.config
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\MegaNote.exe
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\MegaNote.pdb
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.csprojAssemblyReference.cache
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.Properties.Resources.resources
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.csproj.GenerateResource.cache
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.exe
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.pdb
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.megaNote.resources
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\Database1.mdf
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\Database1_log.ldf
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\MegaNote.exe.manifest
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\bin\Debug\MegaNote.application
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.exe.manifest
+C:\Users\Marvin\Documents\projects\C#\MegaNote\MegaNote\obj\Debug\MegaNote.application
