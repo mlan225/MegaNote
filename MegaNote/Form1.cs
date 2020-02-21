@@ -136,6 +136,7 @@ namespace MegaNote
         private void clearSelection_Click(object sender, EventArgs e)
         {
             clearRowSelection();
+            clearData();
         }
 
         private void clearRowSelection()
