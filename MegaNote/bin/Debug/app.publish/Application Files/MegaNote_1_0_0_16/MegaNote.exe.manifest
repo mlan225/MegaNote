@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MegaNote.exe" version="1.0.0.16" publicKeyToken="7ecc99134c1f19f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MegaNote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MegaNote.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MegaNote.exe" size="42984">
+      <assemblyIdentity name="MegaNote" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NhlT/87Z7FCHFUw10qYX7BAaq6piRWyFSkOhWH4FUsg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="8388608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N30M4gkSPL27GS6ZIksaOQD2G+mNtCX6/ZbCGx8pZLo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="8388608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DfTeYtmx7BUyeHfHao9OgDEbPmto2rPlDBKPigNltYI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MegaNote.exe.config" size="553">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9E5iPo/zO6OHDEY+hclIoZlgw0u79+XZkyYuf1ltYU8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-BF05APK\Marvin" issuerKeyHash="197d653bdae22194c170a16a546eb94f942bd469" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kBnw+4DcVI8lIg8YFJhT1gpR6yE0hHnCT8zNlGsgOkc=</DigestValue></Reference></SignedInfo><SignatureValue>n3DrTwmi7tcdZwpbx/QjzKn8Wrw1GT+1mZ1WodgVQx69hoh9m5+T3aOTEelfFpVF3G7KnrmO3q5uLn4ygGuPSrCRQk1deDPRtCNv7dUK+xtW/3ZgTB6gtddKWU4jwHld6d2rVIjxsqyYrVIABd7PXQXbTfQDQJ4kSJLYmHBI3Mo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qgB3LEWpIf54jjWHhXspE9LywHC1RTteZ8j7zc+0uGR7l05owx6xd+KucrrpnyF1VtOClKTMuAl2P3O5aNrpx47SlZ2riOztJCi9W/adAn/5DbZn0MnO+i7mPKQ9CKq1bDMcrzE60FmUBq4IBpAqoM/tALGJbYMv1uScjT/zzXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="473a206b94cdcc4fc279843421eb510ad6539814180f22258f54dc80fbf01990" Description="" Url=""><as:assemblyIdentity name="MegaNote.exe" version="1.0.0.16" publicKeyToken="7ecc99134c1f19f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BF05APK\Marvin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ByfRT/FQblQG0GWVqLZjIRDTMbU3+f7i6B2owg8ggT4=</DigestValue></Reference></SignedInfo><SignatureValue>aB3h+X1wXnSyA94dlcwHGdvNCvoCnO3m5FeHOzSzFK3GtxLu/w78GIjdJFP+4ti/PIm0QsojqRcLN1IBbs6IsQC75sEq8U+Jx+eUuKlmB9w52Yhx0U5YqqBjeC4X5cWvA8hqfj9vb6wYcwmTpqUC5145wgc6aUBPVa6PX7KlUmY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qgB3LEWpIf54jjWHhXspE9LywHC1RTteZ8j7zc+0uGR7l05owx6xd+KucrrpnyF1VtOClKTMuAl2P3O5aNrpx47SlZ2riOztJCi9W/adAn/5DbZn0MnO+i7mPKQ9CKq1bDMcrzE60FmUBq4IBpAqoM/tALGJbYMv1uScjT/zzXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQGC/d18Qi14NN1WljbBCQYzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEIARgAwADUAQQBQAEsAXABNAGEAcgB2AGkAbjAeFw0yMDAyMjAxNzA1MjFaFw0yMTAyMTkyMzA1MjFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AQgBGADAANQBBAFAASwBcAE0AYQByAHYAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqAHcsRakh/niONYeFeykT0vLAcLVFO15nyPvNz7S4ZHuXTmjDHrF34q5yuumfIXVW04KUpMy4CXY/c7lo2unHjtKVnauI7O0kKL1b9p0Cf/kNtmfQyc76LuY8pD0IqrVsMxyvMTrQWZQGrggGkCqgz+0AsYltgy/W5JyNP/PNdQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIY7uop8UoatXXXtPEa/zBVIUN7mY1+muyQad+FpIBv2499MNsMvH2RNKzMbGDFP0X74J/eU+6sFBJ3YM/QEKUDp9/SR1V7KOS710T4iM4Efjg+DciA5Csa9R2P+r8jUXMmrvDKBTQX9/wTxvdNqhd6bb4CMG5oUkojA4/+qw+1f</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

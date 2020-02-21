@@ -67,7 +67,7 @@ namespace MegaNote
                 clearRowSelection();
             } else
             {
-                DateTime current_dateTime = new DateTime();
+                DateTime current_dateTime = DateTime.Now;
                 cmd = new SqlCommand("insert into Notes(title,message,dateCreated) values(@title,@message,@dateCreated)", con);
                 con.Open();
                 cmd.Parameters.AddWithValue("@title", noteTitleInput.Text);
